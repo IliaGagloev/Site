@@ -2,6 +2,22 @@
     font-family: Jokerman;
     font-size: 72px;
 }
+td.main-h {
+    vertical-align: top;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15;
+    font-weight: 500;
+}
+p.main-h {
+    margin-left: 35px;
+
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 5px;
+
+    padding-left: 10px;
+}
 h1 {
     font-family: 'Times New Roman', Times, serif;
 
@@ -10,4 +26,6 @@ h1.main-h {
     font-size: 50;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 0px;
+    font-variant:
 }
