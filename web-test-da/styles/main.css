@@ -1,0 +1,13 @@
+﻿body {
+    font-family: Jokerman;
+    font-size: 72px;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1.main-h {
+    font-size: 50;
+    margin-left: 30px;
+    margin-top: 10px;
+}
