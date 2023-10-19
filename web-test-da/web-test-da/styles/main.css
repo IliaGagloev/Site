@@ -1,0 +1,29 @@
+﻿body {
+    font-family: monospace;
+    font-size: 72px;
+}
+td.mainsub {
+    vertical-align: top;
+    text-align: left;
+
+    font-size: 15;
+    font-weight: 500;
+}
+p.mainsub {
+    margin-left: 5px;
+
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 5px;
+
+    padding-left: 10px;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1.main-h {
+    font-size: 50;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-variant:
+}
