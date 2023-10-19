@@ -1,35 +1,57 @@
 ﻿html {
-    background-color: rebeccapurple;
+    background-color: crimson;
 }
 body {
     width: 1000px;
     margin: 0 auto;
-    background-color: white;
-    padding: 0 10px 10px 10px;
-
+    background-color: floralwhite;
+    padding: 0 15px;
     font-family: monospace;
 }
 td.main {
     text-align: left;
-    vertical-align:top;
-    height: 40px;
+    vertical-align: top;
+
+    
+}
+tr {
+    height:85px;
 }
 h1 {
     margin: 0;
-    padding-top: 5px;
-
+    padding: 0px 0px 0px 0px;
+    border-bottom-color: black;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 td.mainsub {
     vertical-align: top;
     text-align: left;
 }
 p.mainsub {
-    margin-left: 10px;
+    margin-left: 0px;
     border-left-color: black;
     border-left-style: solid;
     border-left-width: 5px;
+
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 20px;
+}
+td.subsub {
+    vertical-align: top;
+    text-align: right;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+strong {
+    font-weight:600;
+}
+img.mainimg {
+    padding: 0;
+    border: 5px double black;
+    background-color: white;
 }
