@@ -1,16 +1,16 @@
 ﻿body {
-    font-family: Jokerman;
+    font-family: monospace;
     font-size: 72px;
 }
-td.main-h {
+td.mainsub {
     vertical-align: top;
     text-align: left;
-    font-family: monospace;
+
     font-size: 15;
     font-weight: 500;
 }
-p.main-h {
-    margin-left: 35px;
+p.mainsub {
+    margin-left: 5px;
 
     border-left-color: black;
     border-left-style: solid;
@@ -20,11 +20,9 @@ p.main-h {
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-
 }
 h1.main-h {
     font-size: 50;
-    margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 0px;
     font-variant:

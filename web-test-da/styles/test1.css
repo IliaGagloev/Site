@@ -1,0 +1,35 @@
+﻿html {
+    background-color: rebeccapurple;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 10px 10px 10px;
+
+    font-family: monospace;
+}
+td.main {
+    text-align: left;
+    vertical-align:top;
+    height: 40px;
+}
+h1 {
+    margin: 0;
+    padding-top: 5px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+td.mainsub {
+    vertical-align: top;
+    text-align: left;
+}
+p.mainsub {
+    margin-left: 10px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
