@@ -1,0 +1,130 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background: crimson;
+    height: 100%;
+
+    scrollbar-arrow-color: #D72020;
+}
+body {
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 0px;
+    background-color: floralwhite;
+    font-family: monospace;
+}
+#container {
+    width: auto;
+    height: 100%;
+    text-align: left;
+}
+#top {
+    height: 240px;
+    padding: 0 20px;
+}
+#header {
+    width: 62.5%;
+    height: 90px;
+    float: left;
+    text-align: left;
+}
+#header h1 {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border-bottom-color: black;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 69px;
+    font-kerning: none;
+}
+#logo {
+    float: right;
+    width: 37.5%;
+    height: 250px;
+    vertical-align: middle;
+    text-align: center;
+}
+p.logo {
+    padding: 0px 0px 0px 40px;
+}
+#subheader {
+    width: 62.5%;
+    height: 90px;
+    float: left;
+    vertical-align: middle;
+    text-align: left;
+
+}
+p.mainsub {
+    margin-left: 0px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#subsubheader {
+    width: 62.5%;
+    height: 70px;
+    float: left;
+    vertical-align: middle;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+#middle {
+    width: auto;
+    height: 100%;
+    padding:0px 20px 0px 20px;
+    background-color: floralwhite;
+}
+#content {
+    float: left;
+    width: 62.5%;
+    height: 94%;
+    padding: 3px 0;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    background-color: floralwhite;
+    overflow-y: scroll;
+}
+div.post {
+    float: left;
+    width: 50px;
+    height:;
+    vertical-align: top;
+    margin: 2px 0;
+    padding: 4px 10px;
+    border: 5px double black;
+}
+div.post h2 {
+
+}
+div.post p {
+    font-size: 18px;
+    text-align: justify;
+}
+#sidebar {
+    float: right;
+    width: 37.5%;
+    height: 94%;
+    padding: 3px 0;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    background-color: floralwhite;
+    text-align: right;
+}
+a:link {
+    color: #D72020;
+}
+a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+a:visited {
+    color: #D72020;
+}
