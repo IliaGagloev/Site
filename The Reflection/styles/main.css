@@ -5,25 +5,25 @@
 html {
     background: crimson;
     height: 100%;
+
+    scrollbar-arrow-color: #D72020;
 }
 body {
-    width: 1100px;
-    height: 139%;
+    width: 1140px;
+    height: 100%;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 0px;
     background-color: floralwhite;
     font-family: monospace;
 }
-
 #container {
-    margin: 0 auto;
-    width: 100%;
-    min-height: 100%;
+    width: auto;
+    height: 100%;
     text-align: left;
 }
 #top {
     height: 240px;
-    border-bottom: 5px double black;
+    padding: 0 20px;
 }
 #header {
     width: 62.5%;
@@ -77,17 +77,47 @@ p.mainsub {
     font-size: 23px;
 }
 #middle {
-    height: 100px;
+    width: auto;
+    height: 100%;
+    padding:0px 20px 0px 20px;
+    background-color: floralwhite;
 }
 #content {
     float: left;
     width: 62.5%;
-    height: 300px;
+    height: 94%;
+    padding: 3px 0;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    background-color: floralwhite;
+    overflow-y: scroll;
+}
+div.post {
+    float: left;
+    width: 640px;
+    vertical-align: top;
+    margin: 2px 0;
+    padding: 4px 10px;
+    border: 5px double black;
+}
+div.post h2 {
+
+}
+div.post p {
+    font-size: 18px;
+    text-align: justify;
+}
+div.post p.likes {
+    text-align: right;
 }
 #sidebar {
     float: right;
     width: 37.5%;
-    height: 300px;
+    height: 94%;
+    padding: 3px 0;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    background-color: floralwhite;
     text-align: right;
 }
 a:link {
